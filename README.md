@@ -25,3 +25,7 @@ You can draw various shapes using the provided functions:
 
 After drawing shapes, you can output the resulting image to the console using the `outputImage()` function. You can specify the characters used to represent "on" and "off" pixels.
 
+### Output example
+
+![Pixel Smile](https://github.com/Elyzavetka/Pixel-Smile-Drawing-TypeScript/blob/main/img/smile-example.png)
+
