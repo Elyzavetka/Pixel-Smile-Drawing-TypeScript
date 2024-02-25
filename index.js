@@ -12,8 +12,10 @@ drawDot(7, 3);
 drawDot(12, 3);
 // smile
 drawDot(4, 5);
-drawHorizontalLine(4, 6, 12);
+drawDot(5, 6);
+drawHorizontalLine(7, 7, 6);
 drawDot(15, 5);
+drawDot(14, 6);
 // output what we drew to the console
 outputImage();
 function drawRectangle(x, y, width, height) {
