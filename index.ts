@@ -5,6 +5,9 @@ const imageData = createImageData();
 
 // draw head
 drawRectangle(0, 0, 20, 10);
+//browns
+drawHorizontalLine(6, 2, 3);
+drawHorizontalLine(11, 2, 3);
 // eyes
 drawDot(7, 3);
 drawDot(12, 3);

@@ -4,6 +4,9 @@ var imageHeight = 10;
 var imageData = createImageData();
 // draw head
 drawRectangle(0, 0, 20, 10);
+//browns
+drawHorizontalLine(6, 2, 3);
+drawHorizontalLine(11, 2, 3);
 // eyes
 drawDot(7, 3);
 drawDot(12, 3);
@@ -71,27 +74,7 @@ function outputImage(onChar, offChar) {
  * Creates an array of booleans where a pixel
  * is "on" when the value is `true` and "off"
  * when the value is `false`.
- *
- * The pixel values are stored in rows
- * (row-major order) where the index of a
- * pixel in the array can be found via:
- *
- *     index = y * imageWidth + x
- *
- * `x` is the horizontal position in the image
- * and `y` is the vertical position from the top
- * left corner.
- *
- * Note: This function has a return type annotation
- * of `boolean[]`. That means it's an array of
- * booleans. We'll learn more about this in a
- * future module.
  */
-// function createImageData(): boolean[] {
-//   // create array of size `length` containing `false` values
-//     const length = imageWidth * imageHeight;
-//     return new Array(length).fill(false);
-// }
 function createImageData() {
     var length = imageWidth * imageHeight;
     var imageData = new Array(length);
